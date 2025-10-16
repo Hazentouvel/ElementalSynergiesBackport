@@ -1,0 +1,56 @@
+{
+  "item.elemental_synergies.cluster": "Cluster",
+  "item.elemental_synergies.dynatite_cluster": "Dynatite Cluster",
+  "item.elemental_synergies.dynatite_ingot": "Dynatite Ingot",
+  "item.elemental_synergies.steel_sheet": "Steel Sheet",
+
+
+  "item.elemental_synergies.abyssal_jellyfish_helmet": "Abyssal Jellyfish Helmet",
+  "item.elemental_synergies.abyssal_jellyfish_chestplate": "Abyssal Jellyfish Chestplate",
+  "item.elemental_synergies.abyssal_jellyfish_leggings": "Abyssal Jellyfish Leggings",
+  "item.elemental_synergies.abyssal_jellyfish_boots": "Abyssal Jellyfish Boots",
+
+  "item.elemental_synergies.freddy_fazbear_helmet": "Freddy Fazbear Helmet",
+  "item.elemental_synergies.freddy_fazbear_chestplate": "Freddy Fazbear Chestplate",
+  "item.elemental_synergies.freddy_fazbear_leggings": "Freddy Fazbear Leggings",
+  "item.elemental_synergies.freddy_fazbear_boots": "Freddy Fazbear Boots",
+
+  "item.elemental_synergies.cataclysm_helmet": "Cataclysm Helmet",
+  "item.elemental_synergies.cataclysm_chestplate": "Cataclysm Chestplate",
+  "item.elemental_synergies.cataclysm_leggings": "Cataclysm Leggings",
+  "item.elemental_synergies.cataclysm_boots": "Cataclysm Boots",
+
+  "item.elemental_synergies.titan_helmet": "Titan Helmet",
+  "item.elemental_synergies.titan_chestplate": "Titan Chestplate",
+  "item.elemental_synergies.titan_leggings": "Titan Leggings",
+  "item.elemental_synergies.titan_boots": "Titan Boots",
+
+  "item.elemental_synergies.utau_helmet": "UTAU Helmet",
+  "item.elemental_synergies.utau_chestplate": "UTAU Chestplate",
+  "item.elemental_synergies.utau_leggings": "UTAU Leggings",
+  "item.elemental_synergies.utau_boots": "UTAU Boots",
+
+  "item.elemental_synergies.synthesizer_v_helmet": "Synthesizer V Helmet",
+  "item.elemental_synergies.synthesizer_v_chestplate": "Synthesizer V Chestplate",
+  "item.elemental_synergies.synthesizer_v_leggings": "Synthesizer V Leggings",
+  "item.elemental_synergies.synthesizer_v_boots": "Synthesizer V Boots",
+
+  "item.elemental_synergies.project_sekai_helmet": "Project Sekai Helmet",
+  "item.elemental_synergies.project_sekai_chestplate": "Project Sekai Chestplate",
+  "item.elemental_synergies.project_sekai_leggings": "Project Sekai Leggings",
+  "item.elemental_synergies.project_sekai_boots": "Project Sekai Boots",
+
+  "item.elemental_synergies.rotten_girl_helmet": "Rotten Girl Helmet",
+  "item.elemental_synergies.rotten_girl_chestplate": "Rotten Girl Chestplate",
+  "item.elemental_synergies.rotten_girl_leggings": "Rotten Girl Leggings",
+  "item.elemental_synergies.rotten_girl_boots": "Rotten Girl Boots",
+
+  "item.elemental_synergies.neru_helmet": "Neru Helmet",
+  "item.elemental_synergies.neru_chestplate": "Neru Chestplate",
+  "item.elemental_synergies.neru_leggings": "Neru Leggings",
+  "item.elemental_synergies.neru_boots": "Neru Boots",
+
+  "creativetab.elemental_synergies_materials": "Elemental Synergies Materials",
+  "creativetab.elemental_synergies_armor": "Elemental Synergies Armor"
+
+}
