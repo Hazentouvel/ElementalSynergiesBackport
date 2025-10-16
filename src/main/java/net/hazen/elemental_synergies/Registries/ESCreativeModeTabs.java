@@ -1,6 +1,7 @@
 package net.hazen.elemental_synergies.Registries;
 
 import net.hazen.elemental_synergies.ElementalSynergies;
+import net.hazen.hazennstuff.Registries.HnSCreativeModeTabs;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
@@ -19,6 +20,7 @@ public class ESCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ELEMENTAL_SYNERGIES_MATERIALS = CREATIVE_MODE_TABS.register("elemental_synergies_materials",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CLUSTER.get()))
+                    .withTabsBefore(new ResourceKey[]{HnSCreativeModeTabs.HAZENNSTUFF_MATERIALS.getKey()})
                     .title(Component.translatable("creativetab.elemental_synergies_materials"))
                     .displayItems((pParameters, pOutput) -> {
 
@@ -32,8 +34,9 @@ public class ESCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> ELEMENTAL_SYNERGIES_ARMOR = CREATIVE_MODE_TABS.register("elemental_synergies_armor",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CLUSTER.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ElementalSynergies.MOD_ID, "hazennstuff_materials"))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CATACLYSM_HELMET.get()))
+                    .withTabsBefore(new ResourceKey[]{HnSCreativeModeTabs.HAZENNSTUFF_ARMOR.getKey()})
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ElementalSynergies.MOD_ID, "elemental_synergies_materials"))
                     .title(Component.translatable("creativetab.elemental_synergies_armor"))
                     .displayItems((pParameters, pOutput) -> {
 

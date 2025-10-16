@@ -1,0 +1,46 @@
+{
+  "required": true,
+  "package": "net.hazen.elemental_synergies.Mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Spells.Aqua.CS.ConjureClawdianMixin",
+    "Spells.Aqua.CS.ConjureCoralGolemMixin",
+    "Spells.Aqua.CS.ConjustCoralssusMixin",
+
+
+    "Spells.Evocation.TOME.AshenBreathMixin",
+    "Spells.Fire.CS.AshenBreathMixin",
+
+
+    "Spells.Lightning.CS.EMPSpellMixin",
+    "Spells.Lightning.TOME.EmPulseSpellMixin",
+
+
+    "Spells.Technomancy.CS.AtomicLaserMixin",
+    "Spells.Technomancy.CS.LaserboltMixin",
+
+
+    "Spells.Technomancy.TOME.DeathLaserMixin",
+    "Spells.Technomancy.TOME.RapidLaserMixin",
+
+    "Spells.Geomancy.GG.StompMixin",
+    "Spells.Geomancy.GG.EarthquakeMixin",
+
+
+    "Spells.Abyssal.CS.AbyssalBlastMixin",
+    "Spells.Abyssal.CS.AbyssalSlashMixin",
+    "Spells.Abyssal.CS.DimensionalRiftSpellMixin",
+    "Spells.Abyssal.CS.VoidBeamMixin",
+
+
+    "Spells.Abyssal.TOME.OrbitalVoidMixin",
+    "Spells.Abyssal.TOME.AbyssalBlastMixin",
+    "Spells.Abyssal.TOME.CursedMinefieldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "elemental_synergies.refmap.json"
+}
