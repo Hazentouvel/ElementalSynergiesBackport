@@ -13,6 +13,7 @@ import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Titan.TitanArmorI
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -313,6 +314,22 @@ public class ESItemRegistry {
                     .rarity(Rarity.EPIC)
                     .fireResistant()
             ));
+
+    /*
+    *** Entities
+     */
+
+    public static final RegistryObject<Item> DEEPLING_ARCHMAGE_SPAWN_EGG = ITEMS.register("deepling_archmage_spawn_egg",
+            () -> new ForgeSpawnEggItem(ESEntityRegistry.DEEPLING_ARCHMAGE,
+                    0x0a1e1d,
+                    0x26ba91,
+                    new Item.Properties()));
+
+    public static final RegistryObject<Item> DEEPLING_SORCEREST_SPAWN_EGG = ITEMS.register("deepling_sorcerest_spawn_egg",
+            () -> new ForgeSpawnEggItem(ESEntityRegistry.DEEPLING_SORCEREST,
+                    0x2d333b,
+                    0x57acdd,
+                    new Item.Properties()));
 
 
 

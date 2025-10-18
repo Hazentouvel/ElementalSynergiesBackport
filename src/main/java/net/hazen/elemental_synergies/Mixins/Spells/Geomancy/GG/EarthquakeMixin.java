@@ -18,6 +18,6 @@ public abstract class EarthquakeMixin extends AbstractSpell {
 		double natureSpellPower = caster.getAttributes()
 				.hasAttribute((Attribute) AttributeRegistry.NATURE_SPELL_POWER.get()) ?
 				caster.getAttributeValue((Attribute) AttributeRegistry.NATURE_SPELL_POWER.get()) : (double)1.0F;
-		return (float)(this.getSpellPower(spellLevel, caster) + ( 0.5 * natureSpellPower)) * 0.25F;
+		return (float)(this.getSpellPower(spellLevel, caster) + ( 0.75 * natureSpellPower)) * 0.25F;
 	}
 }

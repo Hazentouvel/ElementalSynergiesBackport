@@ -41,7 +41,7 @@ public abstract class CursedMinefieldMixin extends AbstractSpell {
 				double randomY = entity.getY() + level.random.nextDouble() * (double)3.0F;
 				double randomZ = entity.getZ() + (level.random.nextDouble() - (double)0.5F) * (double)40.0F;
 				new BlockPos((int)randomX, (int)randomY, (int)randomZ);
-				EntityType<?> abyssMineType = (EntityType)BuiltInRegistries.ENTITY_TYPE.get(new ResourceLocation("cataclysm", "abyss_mine"));
+				EntityType<?> abyssMineType = (EntityType)BuiltInRegistries.ENTITY_TYPE.get(ResourceLocation.fromNamespaceAndPath("cataclysm", "abyss_mine"));
 				if (abyssMineType != null) {
 					Entity abyssMine = abyssMineType.create(level);
 					if (abyssMine instanceof Abyss_Mine_Entity) {

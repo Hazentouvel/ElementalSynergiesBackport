@@ -142,8 +142,7 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     // ISS
-    compileOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
-    runtimeOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
+    implementation fg.deobf("curse.maven:irons_spells_n_spellbooks-855414:6970299")
     runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${caelus_version}")
     runtimeOnly fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:${player_animator_version}")
     implementation fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
@@ -180,7 +179,7 @@ dependencies {
     implementation fg.deobf("curse.maven:alshanexs_familiars-1171602:6250904")
 
     // Hazen 'n Stuff
-    implementation fg.deobf("curse.maven:hazennstuff-1231627:7112074")
+    implementation fg.deobf("curse.maven:hazennstuff-1231627:7116785")
 
 
 

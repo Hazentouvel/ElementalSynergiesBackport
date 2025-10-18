@@ -94,6 +94,19 @@ public class ESCreativeModeTabs {
                     })
                     .build());
 
+    public static final RegistryObject<CreativeModeTab> ELEMENTAL_SYNERGIES_MOBS = CREATIVE_MODE_TABS.register("elemental_synergies_mobs",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CLUSTER.get()))
+                    .withTabsBefore(new ResourceKey[]{CreativeModeTabs.SPAWN_EGGS})
+                    .title(Component.translatable("creativetab.elemental_synergies_materials"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ESItemRegistry.DEEPLING_SORCEREST_SPAWN_EGG.get());
+                        pOutput.accept(ESItemRegistry.DEEPLING_ARCHMAGE_SPAWN_EGG.get());
+
+
+                    })
+                    .build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

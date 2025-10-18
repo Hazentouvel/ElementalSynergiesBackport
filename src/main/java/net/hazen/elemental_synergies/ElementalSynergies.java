@@ -2,6 +2,7 @@ package net.hazen.elemental_synergies;
 
 import com.mojang.logging.LogUtils;
 import net.hazen.elemental_synergies.Registries.ESCreativeModeTabs;
+import net.hazen.elemental_synergies.Registries.ESEntityRegistry;
 import net.hazen.elemental_synergies.Registries.ESItemRegistry;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +32,9 @@ public class ElementalSynergies
 
         ESCreativeModeTabs.register(modEventBus);
         ESItemRegistry.register(modEventBus);
+
+
+        ESEntityRegistry.register(modEventBus);
 
 
 

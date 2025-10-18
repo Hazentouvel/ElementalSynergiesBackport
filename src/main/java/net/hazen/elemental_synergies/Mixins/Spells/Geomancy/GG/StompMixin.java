@@ -19,6 +19,6 @@ public abstract class StompMixin extends AbstractSpell {
 		double natureSpellPower = caster.getAttributes()
 				.hasAttribute((Attribute) AttributeRegistry.NATURE_SPELL_POWER.get()) ?
 				caster.getAttributeValue((Attribute) AttributeRegistry.NATURE_SPELL_POWER.get()) : (double)1.0F;
-		return (float)(this.getSpellPower(spellLevel, caster) + (natureSpellPower * 0.5));
+		return (float)(this.getSpellPower(spellLevel, caster) + (natureSpellPower * 0.75));
 	}
 }

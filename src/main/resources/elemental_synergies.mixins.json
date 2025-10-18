@@ -7,6 +7,9 @@
     "Spells.Aqua.CS.ConjureCoralGolemMixin",
     "Spells.Aqua.CS.ConjustCoralssusMixin",
 
+    "Spells.Aqua.TOME.TheHowlingTempestMixin",
+    "Spells.Aqua.TOME.SerpentideMixin",
+
 
     "Spells.Evocation.TOME.AshenBreathMixin",
     "Spells.Fire.CS.AshenBreathMixin",
@@ -25,6 +28,7 @@
 
     "Spells.Geomancy.GG.StompMixin",
     "Spells.Geomancy.GG.EarthquakeMixin",
+
 
 
     "Spells.Abyssal.CS.AbyssalBlastMixin",
