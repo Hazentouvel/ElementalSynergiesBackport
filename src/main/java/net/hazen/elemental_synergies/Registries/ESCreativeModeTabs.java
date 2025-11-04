@@ -20,13 +20,14 @@ public class ESCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ELEMENTAL_SYNERGIES_MATERIALS = CREATIVE_MODE_TABS.register("elemental_synergies_materials",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CLUSTER.get()))
-                    .withTabsBefore(new ResourceKey[]{HnSCreativeModeTabs.HAZENNSTUFF_MATERIALS.getKey()})
                     .title(Component.translatable("creativetab.elemental_synergies_materials"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ESItemRegistry.DYNATITE_CLUSTER.get());
                         pOutput.accept(ESItemRegistry.DYNATITE_INGOT.get());
                         pOutput.accept(ESItemRegistry.STEEL_SHEET.get());
+                        pOutput.accept(ESItemRegistry.CLUSTER.get());
+                        pOutput.accept(ESItemRegistry.AQUAMARINE.get());
 
 
                     })
@@ -35,8 +36,6 @@ public class ESCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ELEMENTAL_SYNERGIES_ARMOR = CREATIVE_MODE_TABS.register("elemental_synergies_armor",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CATACLYSM_HELMET.get()))
-                    .withTabsBefore(new ResourceKey[]{HnSCreativeModeTabs.HAZENNSTUFF_ARMOR.getKey()})
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ElementalSynergies.MOD_ID, "elemental_synergies_materials"))
                     .title(Component.translatable("creativetab.elemental_synergies_armor"))
                     .displayItems((pParameters, pOutput) -> {
 
@@ -95,9 +94,8 @@ public class ESCreativeModeTabs {
                     .build());
 
     public static final RegistryObject<CreativeModeTab> ELEMENTAL_SYNERGIES_MOBS = CREATIVE_MODE_TABS.register("elemental_synergies_mobs",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.CLUSTER.get()))
-                    .withTabsBefore(new ResourceKey[]{CreativeModeTabs.SPAWN_EGGS})
-                    .title(Component.translatable("creativetab.elemental_synergies_materials"))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ESItemRegistry.DEEPLING_SORCEREST_SPAWN_EGG.get()))
+                    .title(Component.translatable("creativetab.elemental_synergies_mobs"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ESItemRegistry.DEEPLING_SORCEREST_SPAWN_EGG.get());

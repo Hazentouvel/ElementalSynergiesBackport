@@ -7,6 +7,7 @@ import com.github.L_Ender.cataclysm.init.ModItems;
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import io.redspace.ironsspellbooks.api.spells.SchoolType;
 import net.acetheeldritchking.cataclysm_spellbooks.registries.CSSchoolRegistry;
+import net.acetheeldritchking.cataclysm_spellbooks.spells.abyssal.ConjureCoralGolemSpell;
 import net.acetheeldritchking.cataclysm_spellbooks.spells.abyssal.ConjureCoralssusSpell;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -16,7 +17,7 @@ import org.spongepowered.asm.mixin.Mixin;
 
 import static net.acetheeldritchking.cataclysm_spellbooks.util.CSUtils.isValidUnlockItemInInventory;
 
-@Mixin(ConjureCoralssusSpell.class)
+@Mixin(ConjureCoralGolemSpell.class)
 public abstract class ConjureCoralGolemMixin extends AbstractSpell {
 
 	@Override

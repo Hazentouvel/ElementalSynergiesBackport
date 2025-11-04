@@ -1,5 +1,6 @@
 package net.hazen.elemental_synergies.Mixins.Spells.Lightning.TOME;
 
+import com.gametechbc.traveloptics.spells.lightning.EmPulse;
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import net.acetheeldritchking.cataclysm_spellbooks.registries.CSAttributeRegistry;
 import net.acetheeldritchking.cataclysm_spellbooks.spells.technomancy.EMPSpell;
@@ -7,7 +8,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import org.spongepowered.asm.mixin.Mixin;
 
-@Mixin(EMPSpell.class)
+@Mixin(EmPulse.class)
 public abstract class EmPulseSpellMixin extends AbstractSpell {
 
 	public float getDuration(int spellLevel, LivingEntity caster) {

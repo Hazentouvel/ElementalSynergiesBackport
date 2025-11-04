@@ -34,7 +34,11 @@ public class ESItemRegistry {
             () -> new Item(new Item
                     .Properties()
                     .rarity(Rarity.EPIC)
-                    .fireResistant()
+            ));
+
+    public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine",
+            () -> new Item(new Item
+                    .Properties()
             ));
 
     public static final RegistryObject<Item> DYNATITE_CLUSTER = ITEMS.register("dynatite_cluster",
@@ -54,8 +58,6 @@ public class ESItemRegistry {
     public static final RegistryObject<Item> STEEL_SHEET = ITEMS.register("steel_sheet",
             () -> new Item(new Item
                     .Properties()
-                    .rarity(Rarity.EPIC)
-                    .fireResistant()
             ));
 
 
@@ -320,16 +322,10 @@ public class ESItemRegistry {
      */
 
     public static final RegistryObject<Item> DEEPLING_ARCHMAGE_SPAWN_EGG = ITEMS.register("deepling_archmage_spawn_egg",
-            () -> new ForgeSpawnEggItem(ESEntityRegistry.DEEPLING_ARCHMAGE,
-                    0x0a1e1d,
-                    0x26ba91,
-                    new Item.Properties()));
+            () -> new ForgeSpawnEggItem(ESEntityRegistry.DEEPLING_ARCHMAGE, 0x0a1e1d, 0x26ba91, new Item.Properties()));
 
     public static final RegistryObject<Item> DEEPLING_SORCEREST_SPAWN_EGG = ITEMS.register("deepling_sorcerest_spawn_egg",
-            () -> new ForgeSpawnEggItem(ESEntityRegistry.DEEPLING_SORCEREST,
-                    0x2d333b,
-                    0x57acdd,
-                    new Item.Properties()));
+            () -> new ForgeSpawnEggItem(ESEntityRegistry.DEEPLING_SORCEREST, 0x2d333b, 0x57acdd, new Item.Properties()));
 
 
 

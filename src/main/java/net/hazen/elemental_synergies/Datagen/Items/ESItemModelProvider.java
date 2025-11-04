@@ -1,7 +1,7 @@
 package net.hazen.elemental_synergies.Datagen.Items;
 
+import net.hazen.elemental_synergies.ElementalSynergies;
 import net.hazen.elemental_synergies.Registries.ESItemRegistry;
-import net.hazen.hazennstuff.HazenNStuff;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ESItemModelProvider extends ItemModelProvider {
     public ESItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, HazenNStuff.MOD_ID, existingFileHelper);
+        super(output, ElementalSynergies.MOD_ID, existingFileHelper);
     }
 
     @Override
@@ -26,6 +26,6 @@ public class ESItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(HazenNStuff.MOD_ID,"item/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath(ElementalSynergies.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

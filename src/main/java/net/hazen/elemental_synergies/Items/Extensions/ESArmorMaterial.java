@@ -29,7 +29,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
      */
 
     MUSICIAN("musician",
-            38, schoolArmorMap(),
+            38, pureSchoolArmorMap(),
             15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F,
             0.0F,
@@ -41,7 +41,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
 
     AQUAMANCER("aquamancer",
-            38, schoolArmorMap(),
+            38, pureSchoolArmorMap(),
             15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F,
             0.0F,
@@ -54,7 +54,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
 
     TECHNOMANCER("technomancer",
-            38, schoolArmorMap(),
+            38, pureSchoolArmorMap(),
             15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F,
             0.0F,
@@ -66,7 +66,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
 
     TITAN("titan",
-            38, schoolArmorMap(),
+            38, pureSchoolArmorMap(),
             15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F,
             0.0F,
@@ -79,7 +79,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
 
 
     CATACLYSM("cataclysm",
-            38, schoolArmorMap(),
+            38, pureSchoolArmorMap(),
             15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F,
             0.0F,
@@ -92,7 +92,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
 
 
     ABYSSAL_JELLYFISH("abyssal_jellyfish",
-            38, schoolArmorMap(),
+            38, pureSchoolArmorMap(),
             15, SoundEvents.ARMOR_EQUIP_NETHERITE,
             0.0F,
             0.0F,
@@ -143,8 +143,8 @@ public enum ESArmorMaterial implements ArmorMaterial {
         });
     }
 
-    public static EnumMap<Type, Integer> schoolArmorMap() {
-        return makeArmorMap(3, 8, 6, 3);
+    public static EnumMap<Type, Integer> pureSchoolArmorMap() {
+        return makeArmorMap(5, 10, 8, 5);
     }
 
     public int getDurabilityForSlot(EquipmentSlot pSlot) {

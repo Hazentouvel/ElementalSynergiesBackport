@@ -3,9 +3,13 @@
 
 
   "item.elemental_synergies.cluster": "Cluster",
+  "item.elemental_synergies.aquamarine": "Aquamarine",
   "item.elemental_synergies.dynatite_cluster": "Dynatite Cluster",
   "item.elemental_synergies.dynatite_ingot": "Dynatite Ingot",
   "item.elemental_synergies.steel_sheet": "Steel Sheet",
+
+  "item.elemental_synergies.deepling_sorcerest_spawn_egg": "Deepling Sorcerest Spawn Egg",
+  "item.elemental_synergies.deepling_archmage_spawn_egg": "Deepling Archmage Spawn Egg",
 
 
   "item.elemental_synergies.abyssal_jellyfish_helmet": "Abyssal Jellyfish Helmet",
@@ -54,6 +58,7 @@
   "item.elemental_synergies.neru_boots": "Neru Boots",
 
   "creativetab.elemental_synergies_materials": "Elemental Synergies Materials",
-  "creativetab.elemental_synergies_armor": "Elemental Synergies Armor"
+  "creativetab.elemental_synergies_armor": "Elemental Synergies Armor",
+  "creativetab.elemental_synergies_mobs": "Elemental Synergies Mobs"
 
 }

@@ -5,7 +5,7 @@
   "mixins": [
     "Spells.Aqua.CS.ConjureClawdianMixin",
     "Spells.Aqua.CS.ConjureCoralGolemMixin",
-    "Spells.Aqua.CS.ConjustCoralssusMixin",
+    "Spells.Aqua.CS.ConjureCoralssusMixin",
 
     "Spells.Aqua.TOME.TheHowlingTempestMixin",
     "Spells.Aqua.TOME.SerpentideMixin",
@@ -28,6 +28,8 @@
 
     "Spells.Geomancy.GG.StompMixin",
     "Spells.Geomancy.GG.EarthquakeMixin",
+    "Spells.Geomancy.CS.MonolithCrashMixin",
+    "Spells.Geomancy.TOME.SteleCascadeMixin",
 
 
 

@@ -1,9 +1,7 @@
 package net.hazen.elemental_synergies.Datagen.Items;
 
-import com.gametechbc.traveloptics.init.TravelopticsItems;
 import net.hazen.elemental_synergies.ElementalSynergies;
 import net.hazen.elemental_synergies.Registries.ESItemRegistry;
-import net.hazen.hazennstuff.Datagen.HnSTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -23,11 +21,19 @@ public class ESItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
 
-//        this.tag(Tags.Items.INGOTS)
-//                .add(HnSItemRegistry.ZENALITE_INGOT.get())
-//                .add(HnSItemRegistry.STEEL_INGOT.get())
-//
-//        ;
+        this.tag(Tags.Items.INGOTS)
+                .add(ESItemRegistry.DYNATITE_INGOT.get())
+
+        ;
+
+        this.tag(Tags.Items.GEMS)
+                .add(ESItemRegistry.AQUAMARINE.get())
+
+        ;
+
+        this.tag(Tags.Items.RAW_MATERIALS)
+                .add(ESItemRegistry.DYNATITE_CLUSTER.get())
+        ;
 
         this.tag(Tags.Items.ARMORS)
                 .add(ESItemRegistry.CATACLYSM_HELMET.get())
