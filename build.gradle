@@ -142,7 +142,8 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     // ISS
-    implementation fg.deobf("curse.maven:irons_spells_n_spellbooks-855414:6970299")
+    implementation fg.deobf("curse.maven:irons_spells_n_spellbooks-855414:7907340")
+    implementation fg.deobf("curse.maven:irons_spells_n_spellbooks-1492763:7907335")
     runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:${caelus_version}")
     runtimeOnly fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:${player_animator_version}")
     implementation fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}:api")
@@ -161,7 +162,6 @@ dependencies {
 
 
     // Cataclysm Spellbooks
-    implementation fg.deobf("curse.maven:cataclysm_spellbooks-1099461:7063967")
     implementation fg.deobf("curse.maven:lionfish-api-1001614:5922047")
     implementation fg.deobf("curse.maven:l_ender_cataclysm-551586:6906993")
 
@@ -176,7 +176,8 @@ dependencies {
 
 
     // Alshanex's Familiars
-    implementation fg.deobf("curse.maven:alshanexs_familiars-1171602:6250904")
+    implementation fg.deobf("curse.maven:alshanexs_familiars-1171602:7481428")
+    implementation fg.deobf("curse.maven:familiar_lib-1316458:7696453")
 
     // Hazen 'n Stuff
     implementation fg.deobf("curse.maven:hazennstuff-1231627:7116785")

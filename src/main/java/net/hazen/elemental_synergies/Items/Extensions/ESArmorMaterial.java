@@ -4,7 +4,6 @@ import com.gametechbc.gtbcs_geomancy_plus.api.init.GGAttributes;
 import com.gametechbc.traveloptics.api.init.TravelopticsAttributes;
 import io.redspace.ironsspellbooks.api.registry.AttributeRegistry;
 import io.redspace.ironsspellbooks.registries.ItemRegistry;
-import net.acetheeldritchking.cataclysm_spellbooks.registries.CSAttributeRegistry;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -36,7 +35,7 @@ public enum ESArmorMaterial implements ArmorMaterial {
             () -> Ingredient.of(new ItemLike[]{(ItemLike) ItemRegistry.MAGIC_CLOTH.get()}),
             Map.of(
                     (Attribute)AttributeRegistry.MAX_MANA.get(), new AttributeModifier("Max Mana", (double)200.0F, Operation.ADDITION),
-                    (Attribute)net.alshanex.alshanex_familiars.registry.AttributeRegistry.SOUND_SPELL_POWER.get(), new AttributeModifier("Sound Power", 0.15, Operation.MULTIPLY_BASE),
+                    (Attribute) net.alshanex.familiarslib.registry.AttributeRegistry.SOUND_SPELL_POWER.get(), new AttributeModifier("Sound Power", 0.15, Operation.MULTIPLY_BASE),
                     (Attribute)AttributeRegistry.ELDRITCH_SPELL_POWER.get(), new AttributeModifier("Eldritch Power", 0.05, Operation.MULTIPLY_BASE),
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
 
@@ -49,19 +48,6 @@ public enum ESArmorMaterial implements ArmorMaterial {
             Map.of(
                     (Attribute)AttributeRegistry.MAX_MANA.get(), new AttributeModifier("Max Mana", (double)200.0F, Operation.ADDITION),
                     (Attribute)TravelopticsAttributes.AQUA_SPELL_POWER.get(), new AttributeModifier("Aqua Power", 0.15, Operation.MULTIPLY_BASE),
-                    (Attribute) CSAttributeRegistry.ABYSSAL_MAGIC_POWER.get(), new AttributeModifier("Abyssal Power", 0.15, Operation.MULTIPLY_BASE),
-                    (Attribute)AttributeRegistry.ELDRITCH_SPELL_POWER.get(), new AttributeModifier("Eldritch Power", 0.05, Operation.MULTIPLY_BASE),
-                    (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
-
-    TECHNOMANCER("technomancer",
-            38, pureSchoolArmorMap(),
-            15, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            0.0F,
-            0.0F,
-            () -> Ingredient.of(new ItemLike[]{(ItemLike) ItemRegistry.MAGIC_CLOTH.get()}),
-            Map.of(
-                    (Attribute)AttributeRegistry.MAX_MANA.get(), new AttributeModifier("Max Mana", (double)200.0F, Operation.ADDITION),
-                    (Attribute) CSAttributeRegistry.TECHNOMANCY_MAGIC_POWER.get(), new AttributeModifier("Techno Power", 0.15, Operation.MULTIPLY_BASE),
                     (Attribute)AttributeRegistry.ELDRITCH_SPELL_POWER.get(), new AttributeModifier("Eldritch Power", 0.05, Operation.MULTIPLY_BASE),
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
 
@@ -87,8 +73,22 @@ public enum ESArmorMaterial implements ArmorMaterial {
             Map.of(
                     (Attribute)AttributeRegistry.MAX_MANA.get(), new AttributeModifier("Max Mana", (double)200.0F, Operation.ADDITION),
                     (Attribute)AttributeRegistry.FIRE_SPELL_POWER.get(), new AttributeModifier("Fire Power", 0.15, Operation.MULTIPLY_BASE),
-                    (Attribute) CSAttributeRegistry.TECHNOMANCY_MAGIC_POWER.get(), new AttributeModifier("Techno Power", 0.15, Operation.MULTIPLY_BASE),
+                    (Attribute) AttributeRegistry.LIGHTNING_SPELL_POWER.get(), new AttributeModifier("Lightning Power", 0.15, Operation.MULTIPLY_BASE),
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE))),
+
+    EXO_MECH("exo_mech",
+            38,
+            pureSchoolArmorMap(),
+            15,
+            SoundEvents.ARMOR_EQUIP_NETHERITE,
+            0.0F,
+            0.0F,
+            () -> Ingredient.of(new ItemLike[]{(ItemLike) ItemRegistry.MAGIC_CLOTH.get()}),
+            Map.of(
+                    (Attribute)AttributeRegistry.MAX_MANA.get(), new AttributeModifier("Max Mana", (double)350.0F, Operation.ADDITION),
+                    (Attribute)AttributeRegistry.LIGHTNING_SPELL_POWER.get(), new AttributeModifier("Lightning Power", 0.2, Operation.MULTIPLY_BASE),
+                    (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.2, Operation.MULTIPLY_BASE))),
+
 
 
     ABYSSAL_JELLYFISH("abyssal_jellyfish",
@@ -100,7 +100,6 @@ public enum ESArmorMaterial implements ArmorMaterial {
             Map.of(
                     (Attribute)AttributeRegistry.MAX_MANA.get(), new AttributeModifier("Max Mana", (double)200.0F, Operation.ADDITION),
                     (Attribute)TravelopticsAttributes.AQUA_SPELL_POWER.get(), new AttributeModifier("Aqua Power", 0.15, Operation.MULTIPLY_BASE),
-                    (Attribute) CSAttributeRegistry.ABYSSAL_MAGIC_POWER.get(), new AttributeModifier("Abyssal Power", 0.15, Operation.MULTIPLY_BASE),
                     (Attribute) AttributeRegistry.LIGHTNING_SPELL_POWER.get(), new AttributeModifier("Lightning Power", 0.15, Operation.MULTIPLY_BASE),
                     (Attribute)AttributeRegistry.SPELL_POWER.get(), new AttributeModifier("Base Power", 0.15, Operation.MULTIPLY_BASE)));
 
@@ -145,6 +144,9 @@ public enum ESArmorMaterial implements ArmorMaterial {
 
     public static EnumMap<Type, Integer> pureSchoolArmorMap() {
         return makeArmorMap(5, 10, 8, 5);
+    }
+    public static EnumMap<Type, Integer> paragonSchoolArmorMap() {
+        return makeArmorMap(7, 12, 10, 7);
     }
 
     public int getDurabilityForSlot(EquipmentSlot pSlot) {

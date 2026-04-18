@@ -1,7 +1,5 @@
 {
 
-
-
   "item.elemental_synergies.cluster": "Cluster",
   "item.elemental_synergies.aquamarine": "Aquamarine",
   "item.elemental_synergies.dynatite_cluster": "Dynatite Cluster",
@@ -56,6 +54,25 @@
   "item.elemental_synergies.neru_chestplate": "Neru Chestplate",
   "item.elemental_synergies.neru_leggings": "Neru Leggings",
   "item.elemental_synergies.neru_boots": "Neru Boots",
+
+  "item.elemental_synergies.exo_mech_helmet": "Exo-Mech Helmet",
+  "item.elemental_synergies.exo_mech_chestplate": "Exo-Mech Chestplate",
+  "item.elemental_synergies.exo_mech_leggings": "Exo-Mech Leggings",
+  "item.elemental_synergies.exo_mech_boots": "Exo-Mech Boots",
+
+  "item.elemental_synergies.maledictus_helmet": "Maledictus Helmet",
+  "item.elemental_synergies.maledictus_chestplate": "Maledictus Chestplate",
+  "item.elemental_synergies.maledictus_leggings": "Maledictus Leggings",
+  "item.elemental_synergies.maledictus_boots": "Maledictus Boots",
+
+  "item.elemental_synergies.scylla_helmet": "Scylla Helmet",
+  "item.elemental_synergies.scylla_chestplate": "Scylla Chestplate",
+  "item.elemental_synergies.scylla_leggings": "Scylla Leggings",
+  "item.elemental_synergies.scylla_boots": "Scylla Boots",
+
+
+  "entity.elemental_synergies.deepling_sorcerest": "Deepling Sorcerest",
+  "entity.elemental_synergies.deepling_archmage": "Deepling Archmage",
 
   "creativetab.elemental_synergies_materials": "Elemental Synergies Materials",
   "creativetab.elemental_synergies_armor": "Elemental Synergies Armor",

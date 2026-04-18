@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:netherite_mage_helmet"
+    },
+    "D": {
+      "item": "minecraft:cyan_dye"
+    },
+    "R": {
+      "item": "alshanex_familiars:sound_rune"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "RDR",
+    "ZAZ",
+    "   "
+  ],
+  "result": {
+    "item": "elemental_synergies:project_sekai_helmet"
+  },
+  "show_notification": true
+}

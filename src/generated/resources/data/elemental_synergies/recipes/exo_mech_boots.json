@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    "S": {
+      "item": "hazennstuff:thunder_prowler_boots"
+    },
+    "Z": {
+      "item": "cataclysm:witherite_ingot"
+    }
+  },
+  "pattern": [
+    "Z Z",
+    "RSR",
+    "C C"
+  ],
+  "result": {
+    "item": "elemental_synergies:exo_mech_boots"
+  },
+  "show_notification": true
+}

@@ -9,8 +9,6 @@ import io.redspace.ironsspellbooks.entity.mobs.abstract_spell_casting_mob.Abstra
 import io.redspace.ironsspellbooks.entity.mobs.goals.SpellBarrageGoal;
 import io.redspace.ironsspellbooks.entity.mobs.goals.WizardAttackGoal;
 import io.redspace.ironsspellbooks.entity.mobs.goals.WizardRecoverGoal;
-import net.acetheeldritchking.cataclysm_spellbooks.registries.CSAttributeRegistry;
-import net.acetheeldritchking.cataclysm_spellbooks.registries.SpellRegistries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.DifficultyInstance;
@@ -56,14 +54,14 @@ public class DeeplingArchmageEntity extends AbstractSpellCastingMob implements E
                                 TravelopticsSpells.BUBBLE_SPRAY_SPELL.get()),
                         List.of(),
                         List.of(),
-                        List.of()).setSingleUseSpell( SpellRegistries.ABYSSAL_PREDATOR.get(),
+                        List.of()).setSingleUseSpell( TravelopticsSpells.AQUA_MISSILES_SPELL.get(),
                         80, 400, 1, 3)
                 .setDrinksPotions());
         this.goalSelector.addGoal(8, new LookAtPlayerGoal(this, Player.class, 8.0F));
         this.goalSelector.addGoal(10, new WizardRecoverGoal(this));
         this.targetSelector.addGoal(1, (new HurtByTargetGoal(this)).setAlertOthers());
         this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, true));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true));
     }
 
     @Nullable
@@ -84,7 +82,6 @@ public class DeeplingArchmageEntity extends AbstractSpellCastingMob implements E
                 .add(Attributes.MOVEMENT_SPEED, 0.27F)
                 .add(AttributeRegistry.SPELL_POWER.get(), 0.1F)
                 .add(AttributeRegistry.SPELL_RESIST.get(), 0.15F)
-                .add(TravelopticsAttributes.AQUA_SPELL_POWER.get(), 0.15F)
-                .add(CSAttributeRegistry.ABYSSAL_MAGIC_POWER.get(), 0.15F);
+                .add(TravelopticsAttributes.AQUA_SPELL_POWER.get(), 0.15F);
     }
 }

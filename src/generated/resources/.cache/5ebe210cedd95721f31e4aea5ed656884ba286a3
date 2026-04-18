@@ -1,0 +1,9 @@
+// 1.20.1	2026-04-18T11:48:49.3305716	Tags for minecraft:item mod id elemental_synergies
+094981b657b79c47fd776eb18ecaf0174325e032 data/forge/tags/items/armors.json
+bf5cf7651d763540f796e5d943090a10b4344580 data/forge/tags/items/armors/boots.json
+62d44346a0ecc10daf4dd1eacade5f5d64c405fe data/forge/tags/items/armors/chestplates.json
+aa0e626120275fc996ee545a6e31b084d42fe051 data/forge/tags/items/armors/helmets.json
+0ec6afc053e75b1a5e28143cfd9559a764dbfcc8 data/forge/tags/items/armors/leggings.json
+32be5bb2cfa5f27284b1d7e40219f39ec75274fe data/forge/tags/items/gems.json
+9133b6af5c30f408df967a0cdd0fa6ccdb2f763e data/forge/tags/items/ingots.json
+2bf0a138246dd7e52bf238ae89d841c10750632d data/forge/tags/items/raw_materials.json

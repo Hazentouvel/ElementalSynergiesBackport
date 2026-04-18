@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:netherite_mage_boots"
+    },
+    "R": {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    "S": {
+      "item": "elemental_synergies:steel_sheet"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    "RAR",
+    "Z Z"
+  ],
+  "result": {
+    "item": "elemental_synergies:freddy_fazbear_boots"
+  },
+  "show_notification": true
+}

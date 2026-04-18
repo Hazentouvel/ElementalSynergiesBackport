@@ -1,0 +1,67 @@
+[18Apr2026 11:47:53.032] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\darkp\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, elemental_synergies, --all, --output, D:\Hazens InteliJ\ElementalSynergiesBackport\src\generated\resources, --existing, D:\Hazens InteliJ\ElementalSynergiesBackport\src\main\resources, --mixin.config, elemental_synergies.mixins.json]
+[18Apr2026 11:47:53.051] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.10+10.0.10+main.22f00f84 starting: java version 17.0.15 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[18Apr2026 11:47:53.518] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[18Apr2026 11:47:53.712] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/darkp/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23132!/ Service=ModLauncher Env=CLIENT
+[18Apr2026 11:47:54.855] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\darkp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Apr2026 11:47:54.867] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\darkp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Apr2026 11:47:54.878] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\darkp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[18Apr2026 11:47:54.887] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\darkp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[18Apr2026 11:47:56.355] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras. Using Mod File: C:\Users\darkp\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-forge\0.4.1\5c35573a7b76103724799ca1174a69699b8a9aec\mixinextras-forge-0.4.1.jar
+[18Apr2026 11:47:56.356] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[18Apr2026 11:48:07.896] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Apr2026 11:48:07.896] [main/ERROR] [mixin/]: Mixin config elemental_synergies.mixins.json does not specify "minVersion" property
+[18Apr2026 11:48:08.064] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
+[18Apr2026 11:48:08.069] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
+[18Apr2026 11:48:08.097] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\darkp\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, elemental_synergies, --all, --output, D:\Hazens InteliJ\ElementalSynergiesBackport\src\generated\resources, --existing, D:\Hazens InteliJ\ElementalSynergiesBackport\src\main\resources]
+[18Apr2026 11:48:08.875] [main/WARN] [mixin/]: Reference map 'elemental_synergies.refmap.json' for elemental_synergies.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Apr2026 11:48:10.117] [main/INFO] [mixin/]: Remapping refMap familiarslib.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.127] [main/INFO] [mixin/]: Remapping refMap mowziesmobs.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.137] [main/INFO] [mixin/]: Remapping refMap alshanex_familiars.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.144] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.191] [main/INFO] [mixin/]: Remapping refMap player-animation-lib-minecraft_common-refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.199] [main/INFO] [mixin/]: Remapping refMap irons_lib.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.206] [main/INFO] [mixin/]: Remapping refMap lionfishapi.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.213] [main/INFO] [mixin/]: Remapping refMap gtbcs_geomancy_plus.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.219] [main/INFO] [mixin/]: Remapping refMap caelus.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.226] [main/INFO] [mixin/]: Remapping refMap cataclysm.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.232] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.245] [main/INFO] [mixin/]: Remapping refMap citadel.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.257] [main/INFO] [mixin/]: Remapping refMap alexscaves.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.263] [main/INFO] [mixin/]: Remapping refMap placebo.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.270] [main/INFO] [mixin/]: Remapping refMap attributeslib.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.279] [main/INFO] [mixin/]: Remapping refMap irons_spellbooks.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.685] [main/INFO] [mixin/]: Remapping refMap azurelib.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:10.691] [main/INFO] [mixin/]: Remapping refMap azurelib.refmap.json using D:\Hazens InteliJ\ElementalSynergiesBackport\build\createSrgToMcp\output.srg
+[18Apr2026 11:48:13.981] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2026 11:48:14.273] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2026 11:48:14.460] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2026 11:48:14.462] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2026 11:48:16.026] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [elemental_synergies]
+[18Apr2026 11:48:16.467] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18Apr2026 11:48:24.080] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2026 11:48:24.082] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2026 11:48:33.045] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[18Apr2026 11:48:36.107] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.attributeslib/COREMODLOG]: Patching EffectRenderingInventoryScreen#renderEffects
+[18Apr2026 11:48:36.343] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[18Apr2026 11:48:37.922] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[18Apr2026 11:48:38.044] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 86.20 ms
+[18Apr2026 11:48:38.767] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[18Apr2026 11:48:38.773] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[18Apr2026 11:48:39.198] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[18Apr2026 11:48:44.244] [main/WARN] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Upgrade orb gtbcs_geomancy_plus:geo_power using legacy upgrade orb format! This is no longer valid, defaulting to mana upgrade
+[18Apr2026 11:48:44.259] [main/WARN] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Upgrade orb traveloptics:eldritch_power using legacy upgrade orb format! This is no longer valid, defaulting to mana upgrade
+[18Apr2026 11:48:44.259] [main/WARN] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Upgrade orb traveloptics:aqua_power using legacy upgrade orb format! This is no longer valid, defaulting to mana upgrade
+[18Apr2026 11:48:47.686] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[18Apr2026 11:48:48.004] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/darkp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_official_1.20.1/forge-1.20.1-47.4.10_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[18Apr2026 11:48:48.005] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/darkp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_official_1.20.1/forge-1.20.1-47.4.10_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[18Apr2026 11:48:48.735] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[18Apr2026 11:48:49.039] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 302 ms
+[18Apr2026 11:48:49.039] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: elemental_synergies
+[18Apr2026 11:48:49.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: elemental_synergies finished after 41 ms
+[18Apr2026 11:48:49.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id elemental_synergies
+[18Apr2026 11:48:49.244] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id elemental_synergies finished after 162 ms
+[18Apr2026 11:48:49.245] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id elemental_synergies
+[18Apr2026 11:48:49.310] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id elemental_synergies finished after 65 ms
+[18Apr2026 11:48:49.311] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 576 ms
+[18Apr2026 11:48:49.407] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 110, old count: 110, new count: 109, removed stale: 2, written: 28

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "cataclysm:lacrima"
+    },
+    "R": {
+      "item": "traveloptics:aqua_rune"
+    },
+    "S": {
+      "item": "traveloptics:deepling_mage_armor_robe"
+    },
+    "Z": {
+      "item": "cataclysm:essence_of_the_storm"
+    }
+  },
+  "pattern": [
+    "ZSZ",
+    "RZR",
+    "CZC"
+  ],
+  "result": {
+    "item": "elemental_synergies:scylla_chestplate"
+  },
+  "show_notification": true
+}

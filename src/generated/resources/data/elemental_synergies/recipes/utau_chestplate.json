@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:netherite_mage_chestplate"
+    },
+    "D": {
+      "item": "minecraft:red_dye"
+    },
+    "R": {
+      "item": "alshanex_familiars:sound_rune"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "ZAZ",
+    "RZR",
+    "ZDZ"
+  ],
+  "result": {
+    "item": "elemental_synergies:utau_chestplate"
+  },
+  "show_notification": true
+}

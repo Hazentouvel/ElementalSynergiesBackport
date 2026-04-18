@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:ice_rune"
+    },
+    "S": {
+      "item": "cataclysm:cursium_boots"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "Z Z",
+    "RSR",
+    "C C"
+  ],
+  "result": {
+    "item": "elemental_synergies:maledictus_boots"
+  },
+  "show_notification": true
+}

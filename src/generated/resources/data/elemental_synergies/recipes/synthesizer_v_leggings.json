@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "elemental_synergies:utau_leggings"
+    },
+    "D": {
+      "item": "minecraft:red_dye"
+    },
+    "R": {
+      "item": "alshanex_familiars:sound_rune"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "RDR",
+    "ZAZ",
+    "Z Z"
+  ],
+  "result": {
+    "item": "elemental_synergies:synthesizer_v_leggings"
+  },
+  "show_notification": true
+}

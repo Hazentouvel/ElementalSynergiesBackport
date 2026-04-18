@@ -20,7 +20,7 @@ public class AbyssalJellyfishArmorLayer extends GeoRenderLayer<AbyssalJellyfishA
     }
 
     public void render(PoseStack poseStack, AbyssalJellyfishArmorItem animatable, BakedGeoModel bakedModel, RenderType renderType, MultiBufferSource bufferSource, VertexConsumer buffer, float partialTick, int packedLight, int packedOverlay) {
-        RenderType glowRenderType = RenderType.eyes(LAYER);
+        RenderType glowRenderType = RenderType.entityCutout(LAYER);
         this.getRenderer().reRender(this.getDefaultBakedModel(animatable), poseStack, bufferSource, animatable, glowRenderType, bufferSource.getBuffer(glowRenderType), partialTick, packedLight, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 0.5F);
     }
 }

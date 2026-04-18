@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "traveloptics:aqua_rune"
+    },
+    "S": {
+      "item": "traveloptics:deepling_mage_armor_leggings"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "RZR",
+    "ZSZ",
+    "Z Z"
+  ],
+  "result": {
+    "item": "elemental_synergies:abyssal_jellyfish_leggings"
+  },
+  "show_notification": true
+}

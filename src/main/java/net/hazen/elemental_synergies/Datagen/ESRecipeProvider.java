@@ -2,8 +2,8 @@ package net.hazen.elemental_synergies.Datagen;
 
 import com.gametechbc.gtbcs_geomancy_plus.init.GGItems;
 import com.gametechbc.traveloptics.init.TravelopticsItems;
+import com.github.L_Ender.cataclysm.init.ModItems;
 import io.redspace.ironsspellbooks.registries.ItemRegistry;
-import net.acetheeldritchking.cataclysm_spellbooks.registries.ItemRegistries;
 import net.hazen.elemental_synergies.ElementalSynergies;
 import net.hazen.elemental_synergies.Registries.ESItemRegistry;
 import net.hazen.hazennstuff.Datagen.HnSTags;
@@ -101,12 +101,11 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.ABYSSAL_JELLYFISH_HELMET.get())
                 .pattern("ZZZ")
-                .pattern("ASR")
+                .pattern("RSR")
                 .pattern("   ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_HELMET.get())
                 .define('R', TravelopticsItems.AQUA_RUNE.get())
-                .define('A', ItemRegistries.ABYSSAL_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
                 )
@@ -114,25 +113,23 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.ABYSSAL_JELLYFISH_CHESTPLATE.get())
                 .pattern("ZSZ")
-                .pattern("AZR")
+                .pattern("RZR")
                 .pattern("ZZZ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_ROBE.get())
                 .define('R', TravelopticsItems.AQUA_RUNE.get())
-                .define('A', ItemRegistries.ABYSSAL_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
                 )
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.ABYSSAL_JELLYFISH_LEGGINGS.get())
-                .pattern("AZR")
+                .pattern("RZR")
                 .pattern("ZSZ")
                 .pattern("Z Z")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_LEGGINGS.get())
                 .define('R', TravelopticsItems.AQUA_RUNE.get())
-                .define('A', ItemRegistries.ABYSSAL_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
                 )
@@ -140,12 +137,11 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.ABYSSAL_JELLYFISH_BOOTS.get())
                 .pattern("Z Z")
-                .pattern("ASR")
+                .pattern("RSR")
                 .pattern("   ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_BOOTS.get())
                 .define('R', TravelopticsItems.AQUA_RUNE.get())
-                .define('A', ItemRegistries.ABYSSAL_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
                 )
@@ -156,8 +152,8 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("ASR")
                 .pattern("   ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
-                .define('S', ItemRegistries.ENGINEER_MAGE_HOOD.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+                .define('S', ItemRegistry.ELECTROMANCER_HELMET.get())
+              .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('A', ItemRegistry.FIRE_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -169,8 +165,8 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("AZR")
                 .pattern("ZZZ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
-                .define('S', ItemRegistries.ENGINEER_MAGE_SUIT.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+                .define('S', ItemRegistry.ELECTROMANCER_CHESTPLATE.get())
+              .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('A', ItemRegistry.FIRE_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -182,8 +178,8 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("ZSZ")
                 .pattern("Z Z")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
-                .define('S', ItemRegistries.ENGINEER_MAGE_LEGGINGS.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+             .define('S', ItemRegistry.ELECTROMANCER_LEGGINGS.get())
+              .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('A', ItemRegistry.FIRE_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -195,8 +191,8 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("ASR")
                 .pattern("   ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
-                .define('S', ItemRegistries.ENGINEER_MAGE_BOOTS.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+             .define('S', ItemRegistry.ELECTROMANCER_BOOTS.get())
+              .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('A', ItemRegistry.FIRE_RUNE.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -265,7 +261,7 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("   ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('A', ItemRegistry.NETHERITE_MAGE_HELMET.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+             .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('S', ESItemRegistry.STEEL_SHEET.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -278,7 +274,7 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("ZZZ")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('A', ItemRegistry.NETHERITE_MAGE_CHESTPLATE.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+             .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('S', ESItemRegistry.STEEL_SHEET.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -291,7 +287,7 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("Z Z")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('A', ItemRegistry.NETHERITE_MAGE_LEGGINGS.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+             .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('S', ESItemRegistry.STEEL_SHEET.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -304,7 +300,7 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .pattern("Z Z")
                 .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
                 .define('A', ItemRegistry.NETHERITE_MAGE_BOOTS.get())
-                .define('R', ItemRegistries.TECHNOMANCY_RUNE.get())
+                .define('R', ItemRegistry.LIGHTNING_RUNE.get())
                 .define('S', ESItemRegistry.STEEL_SHEET.get())
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
@@ -568,6 +564,162 @@ public class ESRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .define('D', Items.RED_DYE)
                 .unlockedBy(getHasName(HnSItemRegistry.ZENALITE_INGOT.get()),
                         has(HnSItemRegistry.ZENALITE_INGOT.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.EXO_MECH_HELMET.get())
+                .pattern("CZC")
+                .pattern("RSR")
+                .pattern("   ")
+                .define('Z', ModItems.WITHERITE_INGOT.get())
+                .define('C', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('S', HnSItemRegistry.THUNDER_PROWLER_HELMET.get())
+                .define('R', ItemRegistry.LIGHTNING_RUNE.get())
+                .unlockedBy(getHasName(ItemRegistry.LIGHTNING_RUNE.get()),
+                        has(ItemRegistry.LIGHTNING_RUNE.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.EXO_MECH_CHESTPLATE.get())
+                .pattern("ZSZ")
+                .pattern("RZR")
+                .pattern("CZC")
+                .define('Z', ModItems.WITHERITE_INGOT.get())
+                .define('C', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('S', HnSItemRegistry.THUNDER_PROWLER_CHESTPLATE.get())
+                .define('R', ItemRegistry.LIGHTNING_RUNE.get())
+                .unlockedBy(getHasName(ItemRegistry.LIGHTNING_RUNE.get()),
+                        has(ItemRegistry.LIGHTNING_RUNE.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.EXO_MECH_LEGGINGS.get())
+                .pattern("RZR")
+                .pattern("CSC")
+                .pattern("Z Z")
+                .define('Z', ModItems.WITHERITE_INGOT.get())
+                .define('C', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('S', HnSItemRegistry.THUNDER_PROWLER_LEGGINGS.get())
+                .define('R', ItemRegistry.LIGHTNING_RUNE.get())
+                .unlockedBy(getHasName(ItemRegistry.LIGHTNING_RUNE.get()),
+                        has(ItemRegistry.LIGHTNING_RUNE.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.EXO_MECH_BOOTS.get())
+                .pattern("Z Z")
+                .pattern("RSR")
+                .pattern("C C")
+                .define('Z', ModItems.WITHERITE_INGOT.get())
+                .define('C', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('S', HnSItemRegistry.THUNDER_PROWLER_BOOTS.get())
+                .define('R', ItemRegistry.LIGHTNING_RUNE.get())
+                .unlockedBy(getHasName(ItemRegistry.LIGHTNING_RUNE.get()),
+                        has(ItemRegistry.LIGHTNING_RUNE.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.MALEDICTUS_HELMET.get())
+                .pattern("CZC")
+                .pattern("RSR")
+                .pattern("   ")
+                .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('C', ModItems.CURSIUM_INGOT.get())
+                .define('S', ModItems.CURSIUM_HELMET.get())
+                .define('R', ItemRegistry.ICE_RUNE.get())
+                .unlockedBy(getHasName(ModItems.CURSIUM_INGOT.get()),
+                        has(ModItems.CURSIUM_INGOT.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.MALEDICTUS_CHESTPLATE.get())
+                .pattern("ZSZ")
+                .pattern("RZR")
+                .pattern("CZC")
+                .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('C', ModItems.CURSIUM_INGOT.get())
+                .define('S', ModItems.CURSIUM_CHESTPLATE.get())
+                .define('R', ItemRegistry.ICE_RUNE.get())
+                .unlockedBy(getHasName(ModItems.CURSIUM_INGOT.get()),
+                        has(ModItems.CURSIUM_INGOT.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.MALEDICTUS_LEGGINGS.get())
+                .pattern("RZR")
+                .pattern("CSC")
+                .pattern("Z Z")
+                .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('C', ModItems.CURSIUM_INGOT.get())
+                .define('S', ModItems.CURSIUM_LEGGINGS.get())
+                .define('R', ItemRegistry.ICE_RUNE.get())
+                .unlockedBy(getHasName(ModItems.CURSIUM_INGOT.get()),
+                        has(ModItems.CURSIUM_INGOT.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.MALEDICTUS_BOOTS.get())
+                .pattern("Z Z")
+                .pattern("RSR")
+                .pattern("C C")
+                .define('Z', HnSItemRegistry.ZENALITE_INGOT.get())
+                .define('C', ModItems.CURSIUM_INGOT.get())
+                .define('S', ModItems.CURSIUM_BOOTS.get())
+                .define('R', ItemRegistry.ICE_RUNE.get())
+                .unlockedBy(getHasName(ModItems.CURSIUM_INGOT.get()),
+                        has(ModItems.CURSIUM_INGOT.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.SCYLLA_HELMET.get())
+                .pattern("CZC")
+                .pattern("RSR")
+                .pattern("   ")
+                .define('Z', ModItems.ESSENCE_OF_THE_STORM.get())
+                .define('C', ModItems.LACRIMA.get())
+                .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_HELMET.get())
+                .define('R', TravelopticsItems.AQUA_RUNE.get())
+                .unlockedBy(getHasName(ModItems.ESSENCE_OF_THE_STORM.get()),
+                        has(ModItems.ESSENCE_OF_THE_STORM.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.SCYLLA_CHESTPLATE.get())
+                .pattern("ZSZ")
+                .pattern("RZR")
+                .pattern("CZC")
+                .define('Z', ModItems.ESSENCE_OF_THE_STORM.get())
+                .define('C', ModItems.LACRIMA.get())
+                .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_ROBE.get())
+                .define('R', TravelopticsItems.AQUA_RUNE.get())
+                .unlockedBy(getHasName(ModItems.ESSENCE_OF_THE_STORM.get()),
+                        has(ModItems.ESSENCE_OF_THE_STORM.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.SCYLLA_LEGGINGS.get())
+                .pattern("RZR")
+                .pattern("CSC")
+                .pattern("Z Z")
+                .define('Z', ModItems.ESSENCE_OF_THE_STORM.get())
+                .define('C', ModItems.LACRIMA.get())
+                .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_LEGGINGS.get())
+                .define('R', TravelopticsItems.AQUA_RUNE.get())
+                .unlockedBy(getHasName(ModItems.ESSENCE_OF_THE_STORM.get()),
+                        has(ModItems.ESSENCE_OF_THE_STORM.get())
+                )
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ESItemRegistry.SCYLLA_BOOTS.get())
+                .pattern("Z Z")
+                .pattern("RSR")
+                .pattern("C C")
+                .define('Z', ModItems.ESSENCE_OF_THE_STORM.get())
+                .define('C', ModItems.LACRIMA.get())
+                .define('S', TravelopticsItems.DEEPLING_MAGE_ARMOR_BOOTS.get())
+                .define('R', TravelopticsItems.AQUA_RUNE.get())
+                .unlockedBy(getHasName(ModItems.ESSENCE_OF_THE_STORM.get()),
+                        has(ModItems.ESSENCE_OF_THE_STORM.get())
                 )
                 .save(pWriter);
 

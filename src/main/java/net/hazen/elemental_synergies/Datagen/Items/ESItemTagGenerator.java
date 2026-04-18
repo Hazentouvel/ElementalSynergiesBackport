@@ -35,6 +35,7 @@ public class ESItemTagGenerator extends ItemTagsProvider {
                 .add(ESItemRegistry.DYNATITE_CLUSTER.get())
         ;
 
+
         this.tag(Tags.Items.ARMORS)
                 .add(ESItemRegistry.CATACLYSM_HELMET.get())
                 .add(ESItemRegistry.CATACLYSM_CHESTPLATE.get())
@@ -81,6 +82,21 @@ public class ESItemTagGenerator extends ItemTagsProvider {
                 .add(ESItemRegistry.SYNTHESIZER_V_LEGGINGS.get())
                 .add(ESItemRegistry.SYNTHESIZER_V_BOOTS.get())
 
+                .add(ESItemRegistry.SCYLLA_HELMET.get())
+                .add(ESItemRegistry.SCYLLA_CHESTPLATE.get())
+                .add(ESItemRegistry.SCYLLA_LEGGINGS.get())
+                .add(ESItemRegistry.SCYLLA_BOOTS.get())
+
+                .add(ESItemRegistry.EXO_MECH_HELMET.get())
+                .add(ESItemRegistry.EXO_MECH_CHESTPLATE.get())
+                .add(ESItemRegistry.EXO_MECH_LEGGINGS.get())
+                .add(ESItemRegistry.EXO_MECH_BOOTS.get())
+
+                .add(ESItemRegistry.MALEDICTUS_HELMET.get())
+                .add(ESItemRegistry.MALEDICTUS_CHESTPLATE.get())
+                .add(ESItemRegistry.MALEDICTUS_LEGGINGS.get())
+                .add(ESItemRegistry.MALEDICTUS_BOOTS.get())
+
         ;
 
         this.tag(Tags.Items.ARMORS_HELMETS)
@@ -93,6 +109,10 @@ public class ESItemTagGenerator extends ItemTagsProvider {
                 .add(ESItemRegistry.NERU_HELMET.get())
                 .add(ESItemRegistry.UTAU_HELMET.get())
                 .add(ESItemRegistry.SYNTHESIZER_V_HELMET.get())
+                .add(ESItemRegistry.SCYLLA_HELMET.get())
+                .add(ESItemRegistry.EXO_MECH_HELMET.get())
+                .add(ESItemRegistry.MALEDICTUS_HELMET.get())
+
         ;
 
         this.tag(Tags.Items.ARMORS_CHESTPLATES)
@@ -105,6 +125,9 @@ public class ESItemTagGenerator extends ItemTagsProvider {
                 .add(ESItemRegistry.NERU_CHESTPLATE.get())
                 .add(ESItemRegistry.UTAU_CHESTPLATE.get())
                 .add(ESItemRegistry.SYNTHESIZER_V_CHESTPLATE.get())
+                .add(ESItemRegistry.SCYLLA_CHESTPLATE.get())
+                .add(ESItemRegistry.EXO_MECH_CHESTPLATE.get())
+                .add(ESItemRegistry.MALEDICTUS_CHESTPLATE.get())
         ;
 
         this.tag(Tags.Items.ARMORS_LEGGINGS)
@@ -117,6 +140,9 @@ public class ESItemTagGenerator extends ItemTagsProvider {
                 .add(ESItemRegistry.NERU_LEGGINGS.get())
                 .add(ESItemRegistry.UTAU_LEGGINGS.get())
                 .add(ESItemRegistry.SYNTHESIZER_V_LEGGINGS.get())
+                .add(ESItemRegistry.SCYLLA_LEGGINGS.get())
+                .add(ESItemRegistry.EXO_MECH_LEGGINGS.get())
+                .add(ESItemRegistry.MALEDICTUS_LEGGINGS.get())
         ;
 
         this.tag(Tags.Items.ARMORS_BOOTS)
@@ -129,6 +155,9 @@ public class ESItemTagGenerator extends ItemTagsProvider {
                 .add(ESItemRegistry.NERU_BOOTS.get())
                 .add(ESItemRegistry.UTAU_BOOTS.get())
                 .add(ESItemRegistry.SYNTHESIZER_V_BOOTS.get())
+                .add(ESItemRegistry.SCYLLA_BOOTS.get())
+                .add(ESItemRegistry.EXO_MECH_BOOTS.get())
+                .add(ESItemRegistry.MALEDICTUS_BOOTS.get())
         ;
 
 

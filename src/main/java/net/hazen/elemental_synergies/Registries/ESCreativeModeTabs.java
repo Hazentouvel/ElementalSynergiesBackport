@@ -89,6 +89,21 @@ public class ESCreativeModeTabs {
                         pOutput.accept(ESItemRegistry.FREDDY_FAZBEAR_LEGGINGS.get());
                         pOutput.accept(ESItemRegistry.FREDDY_FAZBEAR_BOOTS.get());
 
+                        pOutput.accept(ESItemRegistry.EXO_MECH_HELMET.get());
+                        pOutput.accept(ESItemRegistry.EXO_MECH_CHESTPLATE.get());
+                        pOutput.accept(ESItemRegistry.EXO_MECH_LEGGINGS.get());
+                        pOutput.accept(ESItemRegistry.EXO_MECH_BOOTS.get());
+
+                        pOutput.accept(ESItemRegistry.MALEDICTUS_HELMET.get());
+                        pOutput.accept(ESItemRegistry.MALEDICTUS_CHESTPLATE.get());
+                        pOutput.accept(ESItemRegistry.MALEDICTUS_LEGGINGS.get());
+                        pOutput.accept(ESItemRegistry.MALEDICTUS_BOOTS.get());
+
+                        pOutput.accept(ESItemRegistry.SCYLLA_HELMET.get());
+                        pOutput.accept(ESItemRegistry.SCYLLA_CHESTPLATE.get());
+                        pOutput.accept(ESItemRegistry.SCYLLA_LEGGINGS.get());
+                        pOutput.accept(ESItemRegistry.SCYLLA_BOOTS.get());
+
 
                     })
                     .build());

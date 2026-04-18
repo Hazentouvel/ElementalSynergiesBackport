@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:ice_rune"
+    },
+    "S": {
+      "item": "cataclysm:cursium_chestplate"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "ZSZ",
+    "RZR",
+    "CZC"
+  ],
+  "result": {
+    "item": "elemental_synergies:maledictus_chestplate"
+  },
+  "show_notification": true
+}

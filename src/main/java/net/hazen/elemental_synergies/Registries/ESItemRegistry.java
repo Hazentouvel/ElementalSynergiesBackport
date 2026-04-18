@@ -3,10 +3,13 @@ package net.hazen.elemental_synergies.Registries;
 import net.hazen.elemental_synergies.ElementalSynergies;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.AbyssalJellyfish.AbyssalJellyfishArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Cataclysm.CataclysmArmorItem;
+import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.ExoMechSuit.ExoMechSuitArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.FreddyFazbear.FreddyFazbearArmorItem;
+import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Maledictus.MaledictusArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Miku.ProjectSekai.ProjectSekaiArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Miku.RottenGirl.RottenGirlArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Neru.NeruArmorItem;
+import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Scylla.ScyllaArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Teto.SynthesizerV.SynthesizerVArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Teto.Utau.UtauArmorItem;
 import net.hazen.elemental_synergies.Items.Equipment.ArmorSets.Titan.TitanArmorItem;
@@ -311,6 +314,90 @@ public class ESItemRegistry {
                     .fireResistant()
             ));
     public static final RegistryObject<Item> TITAN_BOOTS = ITEMS.register("titan_boots", () -> new TitanArmorItem
+            (ArmorItem.Type.BOOTS, ItemPropertiesHelper
+                    .equipment()
+                    .rarity(Rarity.EPIC)
+                    .fireResistant()
+            ));
+
+    // Maledictus
+    public static final RegistryObject<Item> MALEDICTUS_HELMET = ITEMS.register("maledictus_helmet", () -> new MaledictusArmorItem
+            (ArmorItem.Type.HELMET,
+                    ItemPropertiesHelper
+                            .equipment()
+                            .rarity(Rarity.EPIC)
+                            .fireResistant()
+            ));
+    public static final RegistryObject<Item> MALEDICTUS_CHESTPLATE = ITEMS.register("maledictus_chestplate", () -> new MaledictusArmorItem
+            (ArmorItem.Type.CHESTPLATE,
+                    ItemPropertiesHelper
+                            .equipment()
+                            .rarity(Rarity.EPIC)
+                            .fireResistant()
+            ));
+    public static final RegistryObject<Item> MALEDICTUS_LEGGINGS = ITEMS.register("maledictus_leggings", () -> new MaledictusArmorItem
+            (ArmorItem.Type.LEGGINGS, ItemPropertiesHelper
+                    .equipment()
+                    .rarity(Rarity.EPIC)
+                    .fireResistant()
+            ));
+    public static final RegistryObject<Item> MALEDICTUS_BOOTS = ITEMS.register("maledictus_boots", () -> new MaledictusArmorItem
+            (ArmorItem.Type.BOOTS, ItemPropertiesHelper
+                    .equipment()
+                    .rarity(Rarity.EPIC)
+                    .fireResistant()
+            ));
+
+    // Scylla
+    public static final RegistryObject<Item> SCYLLA_HELMET = ITEMS.register("scylla_helmet", () -> new ScyllaArmorItem
+            (ArmorItem.Type.HELMET,
+                    ItemPropertiesHelper
+                            .equipment()
+                            .rarity(Rarity.EPIC)
+                            .fireResistant()
+            ));
+    public static final RegistryObject<Item> SCYLLA_CHESTPLATE = ITEMS.register("scylla_chestplate", () -> new ScyllaArmorItem
+            (ArmorItem.Type.CHESTPLATE,
+                    ItemPropertiesHelper
+                            .equipment()
+                            .rarity(Rarity.EPIC)
+                            .fireResistant()
+            ));
+    public static final RegistryObject<Item> SCYLLA_LEGGINGS = ITEMS.register("scylla_leggings", () -> new ScyllaArmorItem
+            (ArmorItem.Type.LEGGINGS, ItemPropertiesHelper
+                    .equipment()
+                    .rarity(Rarity.EPIC)
+                    .fireResistant()
+            ));
+    public static final RegistryObject<Item> SCYLLA_BOOTS = ITEMS.register("scylla_boots", () -> new ScyllaArmorItem
+            (ArmorItem.Type.BOOTS, ItemPropertiesHelper
+                    .equipment()
+                    .rarity(Rarity.EPIC)
+                    .fireResistant()
+            ));
+
+    // Exo Mech Suit
+    public static final RegistryObject<Item> EXO_MECH_HELMET = ITEMS.register("exo_mech_helmet", () -> new ExoMechSuitArmorItem
+            (ArmorItem.Type.HELMET,
+                    ItemPropertiesHelper
+                            .equipment()
+                            .rarity(Rarity.EPIC)
+                            .fireResistant()
+            ));
+    public static final RegistryObject<Item> EXO_MECH_CHESTPLATE = ITEMS.register("exo_mech_chestplate", () -> new ExoMechSuitArmorItem
+            (ArmorItem.Type.CHESTPLATE,
+                    ItemPropertiesHelper
+                            .equipment()
+                            .rarity(Rarity.EPIC)
+                            .fireResistant()
+            ));
+    public static final RegistryObject<Item> EXO_MECH_LEGGINGS = ITEMS.register("exo_mech_leggings", () -> new ExoMechSuitArmorItem
+            (ArmorItem.Type.LEGGINGS, ItemPropertiesHelper
+                    .equipment()
+                    .rarity(Rarity.EPIC)
+                    .fireResistant()
+            ));
+    public static final RegistryObject<Item> EXO_MECH_BOOTS = ITEMS.register("exo_mech_boots", () -> new ExoMechSuitArmorItem
             (ArmorItem.Type.BOOTS, ItemPropertiesHelper
                     .equipment()
                     .rarity(Rarity.EPIC)

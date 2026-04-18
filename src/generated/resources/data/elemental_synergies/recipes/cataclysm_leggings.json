@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    "R": {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    "S": {
+      "item": "irons_spellbooks:electromancer_leggings"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "AZR",
+    "ZSZ",
+    "Z Z"
+  ],
+  "result": {
+    "item": "elemental_synergies:cataclysm_leggings"
+  },
+  "show_notification": true
+}

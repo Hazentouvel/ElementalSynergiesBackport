@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    "C": {
+      "item": "elemental_synergies:cluster"
+    },
+    "R": {
+      "item": "gtbcs_geomancy_plus:geo_rune"
+    },
+    "S": {
+      "item": "irons_spellbooks:netherite_mage_helmet"
+    },
+    "Z": {
+      "item": "hazennstuff:zenalite_ingot"
+    }
+  },
+  "pattern": [
+    "CZC",
+    "ASR",
+    "   "
+  ],
+  "result": {
+    "item": "elemental_synergies:titan_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "hazennstuff:zenalite_ingot"
+    },
+    "R": {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    "S": {
+      "item": "hazennstuff:thunder_prowler_chestplate"
+    },
+    "Z": {
+      "item": "cataclysm:witherite_ingot"
+    }
+  },
+  "pattern": [
+    "ZSZ",
+    "RZR",
+    "CZC"
+  ],
+  "result": {
+    "item": "elemental_synergies:exo_mech_chestplate"
+  },
+  "show_notification": true
+}
